@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://dripdropgarden.com/sitemap.xml
+Sitemap: https://gugostudios.com/sitemap.xml

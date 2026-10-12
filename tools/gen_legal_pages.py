@@ -42,11 +42,11 @@ PAGE = """<!doctype html>
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>© 2026 Drip Drop Garden</span>
+    <span>© 2026 GuGo Studios</span>
     <nav>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Use</a>
-      <a href="mailto:support@dripdropgarden.com">Contact</a>
+      <a href="mailto:support@gugostudios.com">Contact</a>
     </nav>
   </div>
 </footer>
