@@ -10,6 +10,9 @@ deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `mai
 - `tools/build_assets.py`: makes `site/assets/img` from the game's art (the Unity project's store graphics, loading
   screen and character cards): `uv run --with pillow python tools/build_assets.py`.
 - `site/app-ads.txt` (AdMob) goes next to `index.html` once the AdMob publisher id is known.
+- Orbit Smash (the studio's second game): `site/orbitsmash/` (home, privacy, terms) built by
+  `python tools/gen_orbit_pages.py` from `legal/orbitsmash/*.html`; its store listings link to
+  `https://gugostudios.com/orbitsmash/privacy.html` and `/orbitsmash/terms.html`.
 - Support mail: support@gugostudios.com (Cloudflare Email Routing, forwarded to the owner's inbox).
 
 Preview locally: `python -m http.server 8000 --directory site`, then open http://localhost:8000.
